@@ -1,4 +1,8 @@
 <?php
+  /* putuser.php  */
+  /* a web service to add/replace a user in a database  */
+  /* Norman White  */
+
 /* require the user as the parameter */
 if(isset($_GET['uid']) && intval($_GET['uid'])) {
 

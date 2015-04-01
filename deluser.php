@@ -1,4 +1,8 @@
 <?php
+  /* deluser.php  */
+  /* a web service to delete a user from a data base */
+  /* Norman White  */
+
 /* require the user as the parameter */
 if(isset($_GET['uid']) && intval($_GET['uid'])) {
 

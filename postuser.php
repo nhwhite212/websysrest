@@ -2,7 +2,7 @@
 /* require the user as the parameter */
   /*  postuser.php  */
   /* this will only update the fields that have values for the user uid */
-  /* use putuser to add/replace a user  */
+  /* use putuser.php to add/replace a user  */
 
 
   /* must pass a uid  */

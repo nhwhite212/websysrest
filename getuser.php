@@ -1,4 +1,8 @@
 <?php
+  /* getuser.php  */
+  /* gets user fields from a data base  */
+  /* Norman White */
+
 /* require the user as the parameter */
 if(isset($_GET['uid']) && intval($_GET['uid'])) {
 
