@@ -1,0 +1,60 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Test getuser.php</title>
+<link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.css"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"> </script>
+<script type="text/javascript">
+
+$(document).ready(function() {
+{ var deluser function delone(uid)($.getJSON("deluser.php?uid=" + uid, function(data){
+                           $('#page').append( value['data'])
+                           $('#page').append("<br>");
+			              })
+);
+			
+                             };
+$.getJSON("http://websys3.stern.nyu.edu/~nwhite/websys/restful/getusers.php",function(data){
+                          
+							    $.each(data['users'], function(index, value) {
+
+        $('#page').append( value['user']['uid'] + " " + value['user']['username'] + " " + value['user']['email'])
+        $('#page').append("<br>");
+			              }
+);
+       /* need to create a list of users with a click function attached that will */
+      /* delete that uid  by calling delone */
+      /* then need to refesh the page  */
+      $.append
+
+
+				 );
+                              
+});
+</script>
+
+</head> 
+<body> 
+
+<div data-role="page"  >
+	<div data-role="header">
+		<h1>List of Users, click to delete</h1>
+	</div>
+	<div data-role="content" id="page">	
+		
+	</div>
+	<div data-role="footer">
+
+	</div>
+</div>
+
+
+
+</body>
+
+
+
+
+
+</html>

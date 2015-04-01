@@ -1,0 +1,2 @@
+insert into users(uid,username,email,firstname,lastname,password) values(1,'nwhite','nwhite@stern.nyu.edu','Norman','White','mypass');
+insert into users(uid,username,email,firstname,lastname,password) values(21,'user2','user2@stern.nyu.edu','User','Two','Twopass');
