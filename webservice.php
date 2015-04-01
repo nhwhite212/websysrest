@@ -1,5 +1,8 @@
 <?php
-/* require the user as the parameter */
+  /* This is a webservice that pulls posts from a wordpress mysql database  */
+  /* It should work with minor modifcation on any wordpress data base  */
+  /*  Norman White, 2015 */
+ /* require the user as the parameter */
 if(isset($_GET['user']) && intval($_GET['user'])) {
 
   /* soak in the passed variable or set our own */
